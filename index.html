@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SPARKLE</title>
+  </head>
+  <body>
+    <h1>SPARKLE CINEMA</h1>
+    <h2>HALL 8</h2>
+    <div class="container">
+      <div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat reserved">4</div>
+        <div class="seat reserved">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+      </div>
+      <div class="row">
+        <div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat">12</div>
+        <div class="seat">13</div>
+        <div class="seat reserved">14</div>
+        <div class="seat reserved">15</div>
+        <div class="seat">16</div>
+      </div>
+      <div class="row">
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+        <div class="seat">20</div>
+        <div class="seat">21</div>
+        <div class="seat">22</div>
+        <div class="seat">23</div>
+        <div class="seat">24</div>
+      </div>
+      <div class="row">
+        <div class="seat">25</div>
+        <div class="seat">26</div>
+        <div class="seat">27</div>
+        <div class="seat">28</div>
+        <div class="seat">29</div>
+        <div class="seat">30</div>
+        <div class="seat">31</div>
+        <div class="seat">32</div>
+      </div>
+      <div class="row">
+        <div class="seat">33</div>
+        <div class="seat">34</div>
+        <div class="seat">35</div>
+        <div class="seat">36</div>
+        <div class="seat">37</div>
+        <div class="seat">38</div>
+        <div class="seat">39</div>
+        <div class="seat">40</div>
+      </div>
+      <div class="screen">
+        <p>PERDE</p>
+      </div>
+    </div>
+    <p>İzlemek istediğiniz filmi seçiniz.</p>
+    <div class="movie-list">
+      <select id="movie">
+        <option disabled>Film Seçiniz</option>
+        <option value="20">Fast and Farious 8</option>
+        <option value="22">Şahmaran</option>
+        <option value="25">CRANK</option>
+      </select>
+    </div>
+    <ul class="info">
+      <li>
+        <div class="seat selected"></div>
+        <small>Seçili Koltuk</small>
+      </li>
+      <li>
+        <div class="seat"></div>
+        <small>Boş Koltuk</small>
+      </li>
+      <li>
+        <div class="seat reserved"></div>
+        <small>Dolu Koltuk</small>
+      </li>
+    </ul>
+
+    <p class="text">
+      <span id="count">__</span> adet koltuk için hesaplanan ücret bedeli
+      <span id="amount">__ </span>TL.
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
